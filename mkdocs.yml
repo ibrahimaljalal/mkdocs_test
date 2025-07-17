@@ -1,6 +1,13 @@
 site_name: Ibrahim
 
 
+
+repo_url: https://github.com/ibrahimaljalal/mkdocs_test
+
+repo_name: GitHub
+edit_uri: edit/main/docs/ 
+
+
 nav:
   - Home: index.md
   - About: about.md
@@ -10,7 +17,7 @@ nav:
   - IFRame: iframe_test.md
 
 theme:
-  name: mkdocs
+  name: material
   locale: ar
 
 
