@@ -1,0 +1,38 @@
+site_name: Ibrahim
+
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Test 1: ff.md
+  - Test 2: h.md
+  - hradin test: test.md
+  - IFRame: iframe_test.md
+
+theme:
+  name: mkdocs
+  locale: ar
+
+
+
+
+markdown_extensions:
+  - toc:
+      baselevel: 2
+  - attr_list
+  - md_in_html
+
+
+plugins:
+  - search
+  - macros
+
+extra_css:
+  - style.css
+
+
+
+
+
+
+

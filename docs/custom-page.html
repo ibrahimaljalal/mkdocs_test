@@ -1,0 +1,11 @@
+{% extends "main.html" %}
+
+{% block content %}
+    <h1 style="color: red;">🚩 This is a Custom Template Page</h1>
+
+    <p>This content is from <code>custom-page.html</code>.</p>
+
+    <div class="md-typeset">
+        {{ page.content }}
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+/* Hide any link in the footer containing 'mkdocs' text */
+.md-footer-meta a[href*="mkdocs.org"] {
+    display: none !important;
+}
+
+/* Or hide footer copyright if contains 'Made with MkDocs' */
+.md-footer-meta {
+    /* Keep footer itself visible */
+}
+
+/* If needed, hide only the text node inside the link */
