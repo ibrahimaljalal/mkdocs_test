@@ -1,5 +1,5 @@
 site_name: Ibrahim
-
+site_url: https://ibrahimaljalal.github.io/mkdocs_test/
 
 
 repo_url: https://github.com/ibrahimaljalal/mkdocs_test
@@ -18,6 +18,11 @@ nav:
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - content.action.edit  # Enables "Edit this page" link
 
 
 
