@@ -17,7 +17,7 @@ nav:
   - IFRame: iframe_test.md
 
 theme:
-  name: material
+  name: mkdocs
   locale: ar
 
 
